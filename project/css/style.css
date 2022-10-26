@@ -143,3 +143,7 @@ Profile Table
     top: 0;
     cursor: cell;
 }
+
+.profile-table tr:nth-child(odd) {
+    background-color: #d6e3ff;
+}
