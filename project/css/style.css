@@ -26,9 +26,10 @@ body {
 }
 
 .strip-table {
+    width: 90%;
     border-collapse: collapse;
-    width: 100%;
-    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .strip-table > caption {
@@ -86,6 +87,11 @@ a:hover, a:active {
  * MENU
  *
  */
+#menu {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #menu td {
     padding: 15px;
 }
@@ -96,4 +102,44 @@ IMAGE
 .iconic-image {
     width: 22px;
     vertical-align: text-bottom;
+}
+
+/**
+Profile Table
+ */
+
+.profile-table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e7edff;
+}
+
+.profile-table > caption {
+    font-size: xxx-large;
+    background-color: #101d4e;
+    color: white;
+    padding: 3rem;
+}
+
+.profile-table td, .profile-table th {
+    padding: 10px;
+    border: 1px solid #3b4c96;
+    vertical-align: middle;
+}
+
+.center {
+    text-align: center;
+}
+
+.profile-table th {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: left;
+    background-color: #91beff;
+    font-size: 18px;
+    position: sticky;
+    top: 0;
+    cursor: cell;
 }
