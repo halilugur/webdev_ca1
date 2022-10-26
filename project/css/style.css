@@ -1,0 +1,91 @@
+/*
+ * Reset all elements
+ * https://elad.medium.com/the-new-css-reset-53f41f13282e
+ * 
+ */
+* {
+    all: unset; /* this action provide that all elements set unset value */
+    display: revert; /* this attribute provide that set default display value for each element. */
+}
+
+/*
+ * https://www.w3schools.com/howto/default.asp
+ * https://www.w3schools.com/css/default.asp
+ *
+ */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.strong-th {
+    text-align: center!important;
+    background-color: #3b4d96 !important;
+    color: white;
+}
+
+.strip-table {
+    border-collapse: collapse;
+    width: 100%;
+    overflow: auto;
+}
+
+.strip-table > caption {
+    font-size: xxx-large;
+    background-color: #101d4e;
+    color: white;
+    padding: 3rem;
+}
+
+.strip-table td, .strip-table th {
+    padding: 10px;
+}
+
+.strip-table tr:nth-child(odd) {
+    background-color: #d6e3ff;
+}
+
+.strip-table tbody tr:hover {
+    background-color: #101d4e;
+    color: white;
+    cursor: pointer;
+}
+
+.strip-table th {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: left;
+    vertical-align: middle;
+    background-color: #91beff;
+    font-size: 18px;
+    position: sticky;
+    top: 0;
+    cursor: cell;
+}
+
+/*
+ * LINK
+ */
+a:link, a:visited {
+    background-color: white;
+    color: #101d4e;
+    border: 2px solid #3b4c96;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: #3b4c96;
+    color: white;
+    cursor: pointer!important;
+}
+
+/*
+ * MENU
+ *
+ */
+#menu td {
+    padding: 15px;
+}
