@@ -147,3 +147,12 @@ Profile Table
 .profile-table tr:nth-child(odd) {
     background-color: #d6e3ff;
 }
+
+.data-type{
+    font-size: small;
+    color: #005ce7;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 8px;
+    opacity: 0.5;
+}
