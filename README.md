@@ -10,3 +10,9 @@
 
 #### Profile Page
 ![Profile Page](https://github.com/halilugur/webdev_ca1/blob/master/profile_page.png)
+
+#### Salary History Page
+![Profile Page](https://github.com/halilugur/webdev_ca1/blob/master/salary_page.png)
+
+#### Job History Page
+![Profile Page](https://github.com/halilugur/webdev_ca1/blob/master/job_page.png)
